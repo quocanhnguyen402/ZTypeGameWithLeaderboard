@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="lib/js/jquery-3.3.1.min.js"></script>
+    <script src="lib/js/socket.io-2.1.1.js"></script>
+    <script src="lib/js/ztype_page.js"></script>
+    <script src="lib/js/p5min.js"></script>
+    <script src="lib/js/ZType.js"></script>
+    <script src="lib/js/Asteroid.js"></script>
+</head>
+
+<body>
+    <div style="margin: auto auto;width: 1000px;">
+        <table style="border: none">
+            <tr>
+                <td style="margin-left:40px" rowspan="2">
+                    <div id="play_ground"></div>
+                </td>
+                <td style="height: 350px;width: 500px;text-align: center">
+                    <b>Leader Board</b><br>
+                    <table id="leaderboard" style="width: 50%;border: 1px solid;margin-left: 25%">
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center">
+                    <input type="button" name="" id="start" value="Start">
+                    <div id="name_input" hidden>
+                        <input type="text" placeholder="Enter your name" id="player_name">
+                        <button id="submit_player">Submit</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
